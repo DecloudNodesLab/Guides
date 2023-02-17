@@ -25,10 +25,15 @@ ___
 
 ### Развертка ноды:
 
-Выберите проект и разверните файл [deploy.yml](https://github.com/DecloudNodesLab/Projects/tree/main/CosmosSDK) ноды с помощью **Cloudmos (Akashlytics)**  ([инструкция по использованию здесь](/Russian/Cloudmos(Akashlytics).md)) установив значения в соответствующих переменных  `deploy.yml`: 
-- **SSH_PASS** - Пароль для подключения по SSH (пользователь `root`) 
-- **MONIKER**-имя ноды  
-- **VALIDATOR_KEY_JSON_BASE64**-Вставьте содержимое файла `priv_validator_key.json` зашифрованное с помощью **BASE64** *.
+Выберите проект и разверните файл [deploy.yml](https://github.com/DecloudNodesLab/Projects/tree/main/CosmosSDK) ноды с помощью **Cloudmos (Akashlytics)**  ([инструкция по использованию здесь](/Russian/Cloudmos(Akashlytics).md)).
+При разверке доступны следующие переменные в `deploy.yml`: 
+`- **SSH_PASS**` - Пароль для подключения по SSH (пользователь `root`) 
+- **MONIKER** - имя ноды  
+- **VALIDATOR_KEY_JSON_BASE64** - Вставьте содержимое файла `priv_validator_key.json` зашифрованное с помощью **BASE64** *.
+- **GITHUB_REPOSITORY** - Ссылка на репозиторий проекта, который будет клонирован в контейнер и внутри которого произойдет компиляция бинарного файла.
+- **RPC** - Внешняя RPC нода, используется для синхронизации STATE SYNC, поиска актуальных пиров, считывания GENESIS файла.
+- **PEERS** - Внесите список пиров через запятую,в этом случае автоматический поиск будет отключен.
+- **SEEDS** - Внесите список сидов через запятую.
 
 Если у вас нет `priv_validator_key.json` - обратитесь [к этой инструкции](/Russian/Create_validator_key_CosmosSDK.md). 
 
