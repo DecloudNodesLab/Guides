@@ -27,7 +27,7 @@ ___
 
 Выберите проект и разверните файл [deploy.yml](https://github.com/DecloudNodesLab/Projects/tree/main/CosmosSDK) ноды с помощью **Cloudmos (Akashlytics)**  ([инструкция по использованию здесь](/Russian/Cloudmos(Akashlytics).md)).
 При разверке доступны следующие переменные в `deploy.yml`: 
-`- **SSH_PASS**` - Пароль для подключения по SSH (пользователь `root`) 
+/`- **SSH_PASS**` - Пароль для подключения по SSH (пользователь `root`) 
 - **MONIKER** - имя ноды  
 - **VALIDATOR_KEY_JSON_BASE64** - Вставьте содержимое файла `priv_validator_key.json` зашифрованное с помощью **BASE64** *.
 - **GITHUB_REPOSITORY** - Ссылка на репозиторий проекта, который будет клонирован в контейнер и внутри которого произойдет компиляция бинарного файла.
