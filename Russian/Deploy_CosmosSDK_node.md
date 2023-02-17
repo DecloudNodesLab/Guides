@@ -25,7 +25,7 @@ ___
 
 ### Развертка ноды:
 
-Выберите проект и разверните файл [deploy.yml](https://github.com/Dimokus88/Akash-Nodes-Lab/tree/main/Active_testnets) ноды с помощью **Cloudmos (Akashlytics)**  ([инструкция по использованию здесь](https://github.com/Dimokus88/Akash-Nodes-Lab/blob/main/Guide/Cloudmos(Akashlytics)_RU.md)) установив значения в соответствующих переменных  `deploy.yml`: 
+Выберите проект и разверните файл [deploy.yml](https://github.com/Dimokus88/Akash-Nodes-Lab/tree/main/Active_testnets) ноды с помощью **Cloudmos (Akashlytics)**  ([инструкция по использованию здесь](/Guides/Russian/Cloudmos(Akashlytics).md)) установив значения в соответствующих переменных  `deploy.yml`: 
 - **SSH_PASS** - Пароль для подключения по SSH (пользователь `root`) 
 - **MONIKER**-имя ноды  
 - **VALIDATOR_KEY_JSON_BASE64**-Вставьте содержимое файла `priv_validator_key.json` зашифрованное с помощью **BASE64** *.
