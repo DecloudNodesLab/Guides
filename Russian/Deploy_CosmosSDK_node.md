@@ -26,11 +26,11 @@ ___
 ### Развертка ноды:
 
 Выберите проект и разверните файл [deploy.yml](https://github.com/Dimokus88/Akash-Nodes-Lab/tree/main/Active_testnets) ноды с помощью **Cloudmos (Akashlytics)**  ([инструкция по использованию здесь](https://github.com/Dimokus88/Akash-Nodes-Lab/blob/main/Guide/Cloudmos(Akashlytics)_RU.md)) установив значения в соответствующих переменных  `deploy.yml`: 
-- **MY_ROOT_PASSWORD**-свой пароль для `root` пользователя
+- **SSH_PASS** - Пароль для подключения по SSH (пользователь `root`) 
 - **MONIKER**-имя ноды  
-- **LINK_KEY**-ссылку на прямое скачивание файла `priv_validator_key.json`* 
+- **VALIDATOR_KEY_JSON_BASE64**-Вставьте содержимое файла `priv_validator_key.json` зашифрованное с помощью **BASE64** *.
 
-Если у вас нет `priv_validator_key.json` или вы хотите знать, как получить ссылку на прямое скачивание - обратитесь [к этой инструкции](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/valkey/README_RU.md). 
+Если у вас нет `priv_validator_key.json` - обратитесь [к этой инструкции](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/valkey/README_RU.md). 
 
 > *Если вы хотите развернуть **RPC** ноду без ключа валидатора - оставьте `LINK_KEY` пустым или вовсе удалите эту строку. Нода запустится на сгенерированном `priv_validator_key.json`. 
 
