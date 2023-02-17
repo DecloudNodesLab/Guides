@@ -17,7 +17,7 @@ ___
  
 <div align="center">
   
-[English version](/Guides/English/Deploy_CosmosSDK_node.md)
+[English version](/English/Deploy_CosmosSDK_node.md)
   
 </div>
 
