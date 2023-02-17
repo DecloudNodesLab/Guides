@@ -30,7 +30,7 @@ ___
 - **MONIKER**-имя ноды  
 - **VALIDATOR_KEY_JSON_BASE64**-Вставьте содержимое файла `priv_validator_key.json` зашифрованное с помощью **BASE64** *.
 
-Если у вас нет `priv_validator_key.json` - обратитесь [к этой инструкции](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/valkey/README_RU.md). 
+Если у вас нет `priv_validator_key.json` - обратитесь [к этой инструкции](/Russian/Create_validator_key_CosmosSDK.md). 
 
 > *Если вы хотите развернуть **RPC** ноду без ключа валидатора - оставьте `LINK_KEY` пустым или вовсе удалите эту строку. Нода запустится на сгенерированном `priv_validator_key.json`. 
 
