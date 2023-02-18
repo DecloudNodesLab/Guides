@@ -1,24 +1,30 @@
 <div align="center">
   
-![pba](https://user-images.githubusercontent.com/23629420/163564929-166f6a01-a6e2-4412-a4e9-40e54c821f05.png)
-# Cloudmos(Akashlytics) - custom user interface, overview and guide.
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/219872517-2adc32b1-5f64-4d48-9a81-1e2ef6b01a53.png" width=90% </p>
+  
+# Overview and guide to using Cloudmos(Akashlytics) custom user interface.
+
 
   </div>
   
 <div align="center">
+  
+| [Twitter Decloud Nodes Lab](https://twitter.com/NodesLab) | 
+|:--:|
 
 | [Akash Network](https://akash.network/) | [Forum Akash Network](https://forum.akash.network/) | 
 |:--:|:--:|
 ___
 
-Our news channels and technical support:
+Our news channels technical support:
 
-| [Discord Akash](https://discord.gg/WR56y8Wt) | [Telegram Akash EN](https://t.me/AkashNW) | [TwitterAkash](https://twitter.com/akashnet_) | 
-|:--:|:--:|:--:|
+| [Discord Akash](https://discord.akash.network/) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) | [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
+|:--:|:--:|:--:|:--:|:--:|
 
-Before you begin, ***[download and install](https://cloudmos.io/cloud-deploy) the Cloudmos(Akashlytics)*** software on your work computer.
+Before you begin, ***[download and install](https://cloudmos.io/cloud-deploy) Cloudmos(Akashlytics)*** software on your work computer.
   
 </div>
+
 
 ___
 
