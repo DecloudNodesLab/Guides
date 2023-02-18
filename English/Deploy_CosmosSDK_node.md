@@ -13,7 +13,7 @@
 |:--:|:--:|
 ___
 
-Our newsfeeds and Russian-language technical support:
+Our newsfeeds technical support:
 
 | [Discord Akash](https://discord.akash.network/) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) | [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
 |:--:|:--:|:--:|:--:|:--:|
@@ -22,7 +22,7 @@ Our newsfeeds and Russian-language technical support:
  
 <div align="center">
   
-[English version](/English/Deploy_CosmosSDK_node.md)
+[Русская версия](/Russian/Deploy_CosmosSDK_node.md)
   
 </div>
 
@@ -30,7 +30,7 @@ ___
 
 ## Node deployment:
 
-Select a project and deploy the [deploy.yml](https://github.com/DecloudNodesLab/Projects/tree/main/CosmosSDK) file to a node using **Cloudmos (Akashlytics)** ([instructions for use here](/English /Cloudmos(Akashlytics).md)).
+Select a project and deploy the [deploy.yml](https://github.com/DecloudNodesLab/Projects/tree/main/CosmosSDK) file to a node using **Cloudmos (Akashlytics)** ([instructions for use here](/English/Cloudmos(Akashlytics).md)).
 Below in `deploy.yml`, the rest of the cores are restored: <br/>
 ```
 - "SSH_PASS=" - Password for connecting via SSH (user `root`). If it is not specified, the SSH service will not be installed.
@@ -40,7 +40,7 @@ Below in `deploy.yml`, the rest of the cores are restored: <br/>
 If you activate the project node yourself, then here is a list of available changes in `deploy.yml`: <br/>
 ```
 - "GITHUB_REPOSITORY=" - Link to the project repository that will be cloned into the container and inside which
-                           Getting a compilation of a binary file.
+                           getting a compilation of a binary file.
 - "BINARY_LINK=" link to compiled binary file or archive with it.*
 - "BINARY_VERSION=" The version or commit of the binary you want to compile (can only use
                       with GITHUB_REPOSITORY populated).
