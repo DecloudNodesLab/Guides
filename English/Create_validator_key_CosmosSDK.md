@@ -1,21 +1,21 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/219872517-2adc32b1-5f64-4d48-9a81-1e2ef6b01a53.png" width=90% </p>
 
-# Создание priv_validator_key.json
+# Create priv_validator_key.json
 
-Так как, ноды экосистемы **Cosmos SDK** стандартизированны - то и файл `priv_validator_key.json` будет подходить к проектам Cosmos.
+Since the nodes of the **Cosmos SDK** ecosystem are standardized, the `priv_validator_key.json` file will also be suitable for Cosmos projects.
 
-Если у вас еще нет этого файла - разверните через **Cloudmos** ([инструкция и пример использования здесь](/Russian/Cloudmos(Akashlytics).md)) этот [deploy.yaml](https://github.com/DecloudNodesLab/Projects/blob/main/CosmosSDK/get_validator_key.yaml) .
+If you don't have this file yet - use **Cloudmos** to deploy this [deploy.yaml](https://github.com/ DecloudNodesLab/Projects/blob/main/CosmosSDK/get_validator_key.yaml) .
 
-- После окончания развертывания, в вкладке `LOG-LOG` скопируйте вывод между полями `===CUT HERE===` в текстовый файл на ваше локальное устройство:
+- After deployment is complete, in the `LOG-LOG` tab, copy the output between the `===CUT HERE===` fields to a text file on your local device:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/187510333-291e1df8-85dc-492f-8a0a-36000354d857.png" width=60% </p>
 
-Возможно, у вас скопируется `app:` что является лишним в файле. Приведите содержимое файла к виду:
+You may have copied `app:` which is redundant in the file. Change the contents of the file to:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/187510935-d52ba819-e3f7-4711-846f-fdd2d16faf84.png" width=60% </p>
 
-Сохраните файл под именем `priv_validator_key.json` , теперь вы его можете использовать для любых нод экосистемы **Cosmos SDK** .
+Save the file as `priv_validator_key.json` , now you can use it for any node in the **Cosmos SDK** ecosystem.
 
-Закройте деплоймент, `5 АКТ` вернутся на счет:
+Close the deployment, `5 ACT` will be returned to the account:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/187511436-c7628eb1-68d2-4018-891b-cf8ca11ebbed.png" width=60% </p>
