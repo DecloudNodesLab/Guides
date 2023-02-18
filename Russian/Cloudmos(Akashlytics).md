@@ -6,6 +6,9 @@
   </div>
   
 <div align="center">
+  
+| [Twitter Decloud Nodes Lab](https://twitter.com/NodesLab) | 
+|:--:|
 
 | [Akash Network](https://akash.network/) | [Forum Akash Network](https://forum.akash.network/) | 
 |:--:|:--:|
