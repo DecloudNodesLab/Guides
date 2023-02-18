@@ -8,7 +8,9 @@
  2. [Команды валидатора](/Russian/Command_Cosmos_SDK.md#команды-валидатора)
  3. [Команды голосования](/Russian/Command_Cosmos_SDK.md#команды-голосования)
  4. [Команды настроек сети](/Russian/Command_Cosmos_SDK.md#команды-настроек-сети)
+
  
+> P.S. Команда проекта [Nodejumper](https://nodejumper.io/) создали отличный генератор команд, советуем ознакомится на примере [генератора для Omniflix](https://nodejumper.io/omniflix/cheat-sheet).  
 ___
 ## Команды аккаунта (кошелька)
 
