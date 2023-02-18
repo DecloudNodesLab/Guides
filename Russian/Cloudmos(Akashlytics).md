@@ -1,7 +1,9 @@
 <div align="center">
   
-![pba](https://user-images.githubusercontent.com/23629420/163564929-166f6a01-a6e2-4412-a4e9-40e54c821f05.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/219870422-f26b1cf2-5473-4af6-a203-99e55762ad0b.png" width=70% </p>
+  
 # Обзор и руководство по использованию кастомного пользовательского интерфейса Cloudmos(Akashlytics).
+
 
   </div>
   
