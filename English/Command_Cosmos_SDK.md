@@ -5,7 +5,7 @@
 > $BINARY - here is the binary file of the project, each has its own, like denom and chain-id
 
   1. [Account (wallet) commands](/Russian/Command_Cosmos_SDK.md#wallet-account-commands)
-  2. [Validator commands](/English/Command_Cosmos_SDK.md#validator commands)
+  2. [Validator commands](/English/Command_Cosmos_SDK.md#validator-commands)
   3. [Voting commands](/English/Command_Cosmos_SDK.md#voting-commands)
   4. [Network settings commands](/English/Command_Cosmos_SDK.md#network-settings-commands)
 
