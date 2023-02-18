@@ -2,206 +2,204 @@
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/219872517-2adc32b1-5f64-4d48-9a81-1e2ef6b01a53.png" width=90% </p>
   
-# Обзор и руководство по использованию кастомного пользовательского интерфейса Cloudmos(Akashlytics).
+# Overview and guide to using Cloudmos(Akashlytics) custom user interface.
 
 
-  </div>
+   </div>
   
 <div align="center">
   
-| [Twitter Decloud Nodes Lab](https://twitter.com/NodesLab) | 
+| [Twitter Decloud Nodes Lab](https://twitter.com/NodesLab) |
 |:--:|
 
-| [Akash Network](https://akash.network/) | [Forum Akash Network](https://forum.akash.network/) | 
+| [Akash Network](https://akash.network/) | [Forum Akash Network](https://forum.akash.network/) |
 |:--:|:--:|
 ___
 
-Наши новостные каналы и русскоязычная техническая поддержка:
+Our news channels and Russian-language technical support:
 
 | [Discord Akash](https://discord.akash.network/) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) | [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
 |:--:|:--:|:--:|:--:|:--:|
 
-Перед началом ознакомления ***[скачайте и установите](https://cloudmos.io/cloud-deploy) ПО Cloudmos(Akashlytics)*** на свой рабочий компьютер.
+Before you begin, ***[download and install](https://cloudmos.io/cloud-deploy) Cloudmos(Akashlytics)*** software on your work computer.
   
 </div>
 
 ___
 
-#### В этой статье:
-1. [Создание аккаунта и подготовка к кработе](/Russian/Cloudmos(Akashlytics).md#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0-%D0%B8-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5).
-2. [Создать развертывание](/Russian/Cloudmos(Akashlytics).md#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5).
-3. [Содержимое окна разветывания](/Russian/Cloudmos(Akashlytics).md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%BC%D0%BE%D0%B5-%D0%BE%D0%BA%D0%BD%D0%B0-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
-4. [Закрыть развертывание](/Russian/Cloudmos(Akashlytics).md#%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
-5. [Обзор Cloudmos(Akashlytics)](/Russian/Cloudmos(Akashlytics).md#%D0%BE%D0%B1%D0%B7%D0%BE%D1%80-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B0-cloudmosakashlytics)
+#### In this article:
+1. [Creating an account and preparing for work](/English/Cloudmos(Akashlytics).md#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8% D0%B5-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0-%D0%B8-%D0%BF%D0%BE %D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BA-%D1%80%D0%B0%D0%B1 %D0%BE%D1%82%D0%B5).
+2. [Create Deployment](/English/Cloudmos(Akashlytics).md#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5- %D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0 %B5).
+3. [Formation window content](/Russian/Cloudmos(Akashlytics).md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%BC %D0%BE%D0%B5-%D0%BE%D0%BA%D0%BD%D0%B0-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80 %D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
+4. [Close Deployment](/English/Cloudmos(Akashlytics).md#%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8C-%D1%80 %D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+5. [Overview of Cloudmos(Akashlytics)](/Russian/Cloudmos(Akashlytics).md#%D0%BE%D0%B1%D0%B7%D0%BE%D1%80-%D1%84%D1%83% D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B0-cloudmosakashlytics)
 
 ___
 
-## Создание аккаунта и подготовка к работе.
+## Create an account and get ready to go.
 
-После установки, при первом запуске, будет предложено создать адрес в сети ```Akash``` или экспортировать уже имеющийся по seed-фразе:
+After installation, at the first start, you will be prompted to create an address on the ```Akash``` network or export an existing one using a seed phrase:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179983489-a8b76248-edea-4356-8e87-3ec2761ae8b8.png" width=30% </p>
 
-При выборе создания нового аккаунта (кошелька), Вам будет показана seed-фраза к нему, сохраните ее в надежном месте. А также, укажите название будущего аккаунта (кошелька) и пароль к нему:
+When choosing to create a new account (wallet), you will be shown a seed phrase for it, save it in a safe place. And also, specify the name of the future account (wallet) and password to it:
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179984081-47586ff3-76bb-4951-9c44-50e68e95fac9.png" width=30% </p>
 
-Выполните проверку сохранности seed-фразы, расположив слова в правильном порядке:
+Check the safety of the seed phrase by arranging the words in the correct order:
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179984518-4d68dba5-2914-40e5-a8d1-8c193c7db6f3.png" width=30% </p>
 
-Готово, аккаунт успешно создан!
+Done, account successfully created!
   
-   Токен АКТ можно пробрести на биржах ```Gate```, ```AsendeX```, ```Osmosis``` . Следует учитывать, что при каждом развертывании на счете блокируются ***5 AKT*** + требуется небольшое количество AKT для оплаты газа. Таким образом, для теста достаточно пополнить счет на ***6 АКТ***.
+    The ACT token can be purchased on the ```Gate```, ```AsendeX```, ```Osmosis``` exchanges. Please note that ***5 AKT*** are blocked on the account with each deployment + a small amount of AKT is required to pay for gas. Thus, for the test it is enough to replenish the account with ***6 ACT***.
   
- В примере я пополню тестовый счет ```akash1wnejkh7vfjxcavmt43dratujdw5vkzynt94zrg``` на ***6 АКТ***.
+  In the example, I will replenish the test account ```akash1wnejkh7vfjxcavmt43dratujdw5vkzynt94zrg``` with ***6 ACT***.
 
-Счет пополнен, теперь необходимо запросить и установить локально сертификат из блокчейна, для этого справа вверху нажмите ***CREATE CERTIFICATE***
+The account has been replenished, now you need to request and install a local certificate from the blockchain, for this, click ***CREATE CERTIFICATE*** in the upper right
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179985902-ac2a82cd-522c-4a24-b1d6-6f5c16f24fbe.png" width=60% </p>
 
-Введите пароль указанный при ***создании аккаунта***:
+Enter the password specified when ***creating an account***:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179986384-90fc70fe-3c6e-4a71-8592-ccd2d04dcb7c.png" width=30% </p>
 
-Выберите комисиию за транзакцию и поддтвердите транзакцию:
+Select the transaction fee and confirm the transaction:
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179986643-a41816cc-5338-4036-8fa6-b4a2ceabdf54.png" width=30% </p>
 
-Сертификат создан, Вы можете его увидеть в правом верхнем углу окна:
+The certificate has been created, you can see it in the upper right corner of the window:
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179986849-36066744-450f-440a-a392-542afcc3b883.png" width=50% </p>
 
-Подготовка завершена, теперь сделаем тестовое разветывание.
+Preparation is complete, now let's do a test forking.
 
-[Вернуться к содержанию.](/Russian/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
-  
+[Back to content.](/English/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0% B0%D1%82%D1%8C%D0%B5)
 ___
 
-## Тестовое развертывание
+## Test deployment
 
-В ***Cloudmos(Akashlytics)*** есть готовые файлы ***манифеста (deploy.yml)***, они находятся во вкладке ```Templates```, ознакомьтесь с предложением готовых решений: 
+***Cloudmos(Akashlytics)*** has ready-made ***manifest files (deploy.yml)***, they are in the ```Templates``` tab, check out the offer of ready-made solutions:
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179993135-a0b5f5d1-8236-41f1-886b-8bfe664c8358.png" width=60% </p>
 
-Развернем всем известную игру ***Super Mario***, для этого выберем соответствующий раздел в ```Templeates``` и нажмем на ```Super Mario```:
+Let's deploy the well-known game ***Super Mario***, to do this, select the appropriate section in ```Templeates``` and click on ```Super Mario```:
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179993710-bdf5464e-a8cf-4426-857a-92ae80d7f3c7.png" width=60% </p>
 
-Нажимаем ***Deploy***: 
+Click ***Deploy***:
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179993892-8a2b96bb-b529-46f7-92bb-2f5e34ac3c87.png" width=60% </p>
 
-***Cloudmos(Akashlytics)*** быстро проверяет наличие сертификата и ***5 АКТ*** на балансе, и открывает заполненное окно ***манифеста (deploy.yml)***, остановимся на содержимом манифеста:
+***Cloudmos(Akashlytics)*** quickly checks for the presence of a certificate and ***5 ACT*** on the balance, and opens the completed ***manifest window (deploy.yml)***, let's focus on the contents of the manifest:
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179994491-9ddb00f5-14ea-4430-ae43-1d23e406c854.png" width=60% </p>
 
-Здесь обратите внимание на:
+Here pay attention to:
 
-Раздел ```services``` (строки 4-11). В строке 6 указан образ в ***Docker hub*** из которого будет развернут контейнер, в нашем случае это ```pengbai/docker-supermario```. Подраздел ***expose*** отвечает за открытия и переадресацию портов. В нашем случае порт 8080 представляем, как 80 внешний.
+Section ```services``` (lines 4-11). Line 6 specifies the image in ***Docker hub*** from which the container will be deployed, in our case it is ```pengbai/docker-supermario```. The ***expose*** subsection is responsible for opening and forwarding ports. In our case, port 8080 is represented as 80 external.
 
-Раздел ```profiles``` (строки 13-22) здесь в подразделе ```resources``` мы указываем арендуемые характеристики оборудования под наш контейнер с игрой ***Super Mario***. В нашем случае это ```1 cpu, 512 мб ОЗУ и 512мб жесткого диска```. Задайте ввеху имя развертывания и нажимите ***CREATE DEPLOYMENT***.
+Section ```profiles``` (lines 13-22) here in the subsection ```resources``` we indicate the rented characteristics of the equipment for our container with the game ***Super Mario***. In our case, this is ```1 cpu, 512 MB of RAM and 512 MB of hard disk```. Enter a name for the deployment at the top and click ***CREATE DEPLOYMENT***.
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179996364-3f4591e3-731c-41b3-91ae-d580fc6bad8e.png" width=30% </p>
 
-Депонируем ***5 АКТ*** из нашего счета, нажимаем ```DEPOSIT```:
+We deposit ***5 ACT*** from our account, press ```DEPOSIT```:
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179996501-52b33027-2be4-4791-b238-93ca79de8e47.png" width=30% </p>
 
-Устанавливаем размер комиссии за транpакцию и подтверждаем ее. На данном этапе мы отправили в сеть запрос на мощности для нашего конетйнера с игрой. Нам остается дождаться ответа от провайдеров с их предложениями и ценами. ***Обратите внимание, у Вас со счет были депонированы 5 АКТ***.
+Set the transaction fee and confirm it. At this stage, we have sent a capacity request to the network for our game container. We just have to wait for a response from providers with their offers and prices. ***Please note that 5 ACTs have been deposited from your account***.
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179997193-2c4793bf-392f-4d7d-81a9-8e1326083cf2.png" width=30% </p>
 
-Выбираем провайдера и нажимаем ```ACCEPT BID```, еще раз устанавливаем комиссию для транзакиции и подтверждаем ее. Дожидаемся развертки контейнера. После того, как контейнер развернут, перейдите на вкладку ```LEASES```.
+Select a provider and press ```ACCEPT BID```, once again set the commission for the transaction and confirm it. We are waiting for the container to be deployed. Once the container is deployed, go to the ```LEASES``` tab.
  
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179997878-7d6eb433-24ef-4b67-b829-d47c858553bd.png" width=30% </p>
 
-Здесь доступна информация о Вашем провайдере, стоимости аренды, а также индивидуальная ссылка на Ваше развертывание. Нажмите на нее.
+Information about your provider, rental cost, as well as an individual link to your deployment are available here. Click on it.
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179998220-473b42ec-144f-4bff-b640-801fc727983b.png" width=60% </p>
 
-Отлично! Похоже, Вы развернули игру в Akash Network! Но Вам же нужно нечто большее, чем игра? Тогда перейдите к разделу описания функционала ***Cloudmos(Akashlytics)*** =)
+Great! It looks like you deployed the game to Akash Network! But you need something more than a game? Then go to the section describing the functionality of ***Cloudmos(Akashlytics)*** =)
   
-[Вернуться к содержанию.](/Russian/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
+[Back to content.](/English/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0% B0%D1%82%D1%8C%D0%B5)
   
 ___  
   
-## Содержимое окна развертывания
+## Contents of the deployment window
 
-Во вкладке ```Dashboard``` отображаются Ваши активные разветывания, зайдите в него.
+The ```Dashboard``` tab displays your active forks, go to it.
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180011860-0b25c946-c681-42e5-92eb-53685e42233c.png" width=60% </p>
 
-Как узнали раннее, во вкладке ```LEASES``` содержится общая информация о развертывании - провайдер, ресурсы, переадресованный порты и ссылки.
+As we learned earlier, the ```LEASES``` tab contains general information about the deployment - provider, resources, forwarded ports and links.
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180012152-b6245abd-6be0-4030-ba1f-be4a9c9c2339.png" width=60% </p>
 
-Во вкладке ```LOGS``` есть еще 2 подраздела, это подраздел ```LOGS``` - здесь отображаются логи ***ВНУТРИ*** контейнера (нажав кнопку ```DOWNLOADS LOGS```, можно их скачать в файл):
+There are 2 more subsections in the ```LOGS``` tab, this is the ```LOGS``` subsection - logs ***INSIDE*** of the container are displayed here (by clicking the ```DOWNLOADS LOGS``` button, you can download them to file):
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180012615-25fd934f-b191-415a-9994-d9449bc71cdf.png" width=50% </p>
 
-и подраздел ```EVENTS``` - здесь отображаются логи ***k8s*** и процесс скачивания и старта Вашего образа:
+and the ```EVENTS``` subsection - ***k8s*** logs and the process of downloading and starting your image are displayed here:
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180013447-fc46589d-70df-486e-92cd-9cad9571824a.png" width=50% </p>
 
-На вкладке ```SHELL``` можете использовать некоторые ***НЕ интерактивные*** команды внутри контейнера
+On the ```SHELL``` tab, you can use some ***NOT interactive*** commands inside the container
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180014038-5a6157d5-8329-4ffd-8feb-a3414050434e.png" width=50% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180014038-5a6157d5-8329-4ffd-8feb-a3414050434e.png" width=50%</p>
 
-Вкладка ```UPDATE``` содержит текущий ***манифест (deploy.yml)***, здесь Вы можете добавить переменные или изменить версию образа, в этом случае контейнер будет перезапущен. ***(ВАЖНО! Нельзя изменить ресурсы! Для этого надо закрыть равертывание и развернуть заново!).***
+The ```UPDATE``` tab contains the current ***manifest (deploy.yml)***, here you can add variables or change the image version, in which case the container will be restarted. ***(IMPORTANT! Resources cannot be changed! To do this, close deployment and redeploy!).***
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180014538-95597f58-1d4b-4bc7-9ed4-eba9339b3a58.png" width=50% </p>
 
-Вкладка ```RAW DATA``` содержит ```JSON``` информацию из блокчейна ```AKASH```
+The ```RAW DATA``` tab contains ```JSON``` information from the ```AKASH``` blockchain
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180014764-02b11971-e727-4156-8eb6-5e1900f2f1f1.png" width=50% </p>
 
-[Вернуться к содержанию.](/Russian/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
+[Back to content.](/English/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0% B0%D1%82%D1%8C%D0%B5)
 
 ___
   
  
-## Закрыть развертывание
+## Close deployment
 
-Чтобы закрыть развертывание, необходимо в контекстном меню нажать ```CLOSE``` и подтвердить транзакцию
+To close the deployment, you need to click ```CLOSE``` in the context menu and confirm the transaction
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180015653-5471583b-51fa-4940-819e-79d1d518b826.png" width=60% </p>
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180015752-d304b327-45fc-4629-93f2-7e79c0505931.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180015752-d304b327-45fc-4629-93f2-7e79c0505931.png" width=30%</p>
 
 
-После закрытия развертывание остаток ***АКТ*** вернется на Ваш основной счет.
+After the deployment is closed, the balance of ***ACT*** will be returned to your main account.
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180015965-c3044adc-4352-428c-9d1e-cec2f3e38ae9.png" width=60% </p>
 
 
-[Вернуться к содержанию.](/Russian/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
+[Back to content.](/English/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0% B0%D1%82%D1%8C%D0%B5)
 
 ___
 
   
-### Обзор функционала Cloudmos(Akashlytics).
+### Overview of Cloudmos(Akashlytics) functionality.
   
-***Dashboard*** - здесь указаны актуальные параметры Вашего счета(1), текущее состояние аренды в сети(2) и Ваши активные развертывания(3).
+***Dashboard*** - Shows your current account details(1), current online lease status(2) and your active deployments(3).
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180029956-c9c5ac9f-ee58-4242-ab3b-82c374ee7379.png" width=60% </p>
 
-***Deployments*** - все, когда-либо созданные, разветывания на Вашем адресе, включая не активные.
+***Deployments*** - all fanouts ever created on your address, including those that are not active.
   
-  <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180030091-a9ccf0ee-ecbf-4d18-a005-17bb09ab9cd9.png" width=60% </p>
+   <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180030091-a9ccf0ee-ecbf-4d18-a005-17bb09ab9cd9.png" width=60% </p>
 
-***Templates*** - готовые решения для развертываний, игры, БД, конструкторы сайтов, майнер и т.д..
+***Templates*** - ready-made solutions for deployments, games, database, website builders, miner, etc..
     
-  <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180030306-92134590-17c3-4bf0-9032-79245425755f.png" width=60% </p>
+   <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180030306-92134590-17c3-4bf0-9032-79245425755f.png" width=60% </p>
   
-***Provider*** - список существующих провайдеров в маркетплейсе Akash Network с параметрами их оборудования.
+***Provider*** - a list of existing providers in the Akash Network marketplace with their equipment parameters.
     
- <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180030505-c704159c-6820-4d86-8ea6-66c5eedb71b5.png" width=60% </p> 
+  <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180030505-c704159c-6820-4d86-8ea6-66c5eedb71b5.png" width=60% </p>
 
-***Settings*** - настройка RPC ноды приложения (1). Так же доступно быстрое переключение в поле вверху окна (2).
+***Settings*** - RPC node settings for the application (1). Quick switching is also available in the field at the top of the window (2).
    
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180031581-545f3439-702d-45e2-8d53-3d4f97d845ce.png" width=60% </p>
   
-[Вернуться к содержанию.](/Russian/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
-
+[Back to content.](/English/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0% B0%D1%82%D1%8C%D0%B5)
 ___
