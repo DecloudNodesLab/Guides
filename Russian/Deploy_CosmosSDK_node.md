@@ -113,7 +113,7 @@ $BINARY tx staking delegate $valoper <amount>$DENOM --from $address --chain-id $
 ```
 $BINARY tx distribution withdraw-rewards $valoper --from $address --fees 500$DENOM --commission --chain-id $CHAIN -y
 ```
-Другие команды по управлению нодой [можете найти здесь](https://github.com/Dimokus88/Akash-Nodes-Lab/blob/main/Guide/Command_Cosmos_SDK.md).
+Другие команды по управлению нодой [можете найти здесь](/Russian/Command_Cosmos_SDK.md).
 
 [К началу](/Russian/Deploy_CosmosSDK_node.md#нода-валидатора-стандарта-cosmos-sdk-развертка-в-akash-network)
 
