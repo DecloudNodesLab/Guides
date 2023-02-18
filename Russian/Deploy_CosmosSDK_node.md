@@ -18,8 +18,6 @@ ___
 | [Discord Akash](https://discord.akash.network/) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) | [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
 |:--:|:--:|:--:|:--:|:--:|
 
-Перед началом ознакомления ***[скачайте и установите](https://cloudmos.io/cloud-deploy) ПО Cloudmos(Akashlytics)*** на свой рабочий компьютер.
-  
 </div>
  
 <div align="center">
