@@ -70,7 +70,6 @@ If you don't have `priv_validator_key.json`, refer to [this manual](/Russian/Cre
 <div align="center">
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/182032797-70a74454-75dd-4910-8a30-9a88a1715531.png" width=45% align="left" </p>
-</p>
 
 </div>
 
