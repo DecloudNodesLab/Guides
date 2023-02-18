@@ -4,10 +4,10 @@
 
 > $BINARY - здесь бинарный файл проекта, у каждого он свой, как и denom и chain-id
 
- 1. [Команды аккаунта (кошелька)](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#account-wallet-commands)
- 2. [Команды валидатора](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#validator-commands)
- 3. [Команды голосования](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#voting-commands)
- 4. [Команды настроек сети](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#network-settings-commands)
+ 1. [Команды аккаунта (кошелька)](/Russian/Command_Cosmos_SDK.md#команды-аккаунта-кошелька)
+ 2. [Команды валидатора](/Russian/Command_Cosmos_SDK.md#команды-валидатора)
+ 3. [Команды голосования](/Russian/Command_Cosmos_SDK.md#команды-голосованияs)
+ 4. [Команды настроек сети](/Russian/Command_Cosmos_SDK.md#команды-настроек-сети)
  
 ___
 ## Команды аккаунта (кошелька)
@@ -36,7 +36,7 @@ $BINARY q bank balances <ADDRESS>
 $BINARY tx bank send <АДРЕС_ОТПРАВИТЕЛЯ> <АДРЕС_ПОЛУЧАТЕЛЯ> 1000000$DENOM --fees 500$DENOM -y
 ```
 
-[Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#commands-for-the-command-line-of-cosmos-sdk-ecosystem-projects) .
+[Наверх](/Russian/Command_Cosmos_SDK.md#шаблоны-команд-для-cli-проектов-на-базе-cosmos-sdk) .
 
 ___
 
@@ -76,11 +76,11 @@ $BINARY tx distribution withdraw-rewards <valoper_address> --from <ADDRESS> --fe
 $BINARY tx staking delegate <valoper_address> 1000000$DENOM --from <ADDRESS> --fees 500$DENOM -y
 ```
 
-[Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#commands-for-the-command-line-of-cosmos-sdk-ecosystem-projects) .
+[Наверх](/Russian/Command_Cosmos_SDK.md#шаблоны-команд-для-cli-проектов-на-базе-cosmos-sdk) .
   
 ___
 
-#### Команды голосования
+## Команды голосования
   
 Список предложений
 
@@ -112,12 +112,12 @@ $BINARY tx gov deposit 1 1000000$DENOM --from <ADDRESS> --fees 555$DENOM
 $BINARY tx gov submit-proposal --title="Randomly reward" --description="Reward 10 testnet participants who completed more than 3 tasks" --type="Text" --deposit="11000000$DENOM" --from <ADDRESS> --fees 500$DENOM
 ```
   
-[Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#commands-for-the-command-line-of-cosmos-sdk-ecosystem-projects) .
+[Наверх](/Russian/Command_Cosmos_SDK.md#шаблоны-команд-для-cli-проектов-на-базе-cosmos-sdk) .
   
   
 ___
 
-#### Команды настроек сети
+## Команды настроек сети
   
 Параметры сети
 
@@ -145,6 +145,6 @@ $BINARY q slashing signing-info $($BINARY tendermint show-validator)
 curl localhost:26657/status
 ```
 
-[Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#commands-for-the-command-line-of-cosmos-sdk-ecosystem-projects) .
+[Наверх](/Russian/Command_Cosmos_SDK.md#шаблоны-команд-для-cli-проектов-на-базе-cosmos-sdk) .
 
 ___
