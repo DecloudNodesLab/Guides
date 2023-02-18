@@ -65,7 +65,7 @@ If you don't have `priv_validator_key.json`, refer to [this manual](/Russian/Cre
 
 > *If you want to deploy an **RPC** node without a validator key - in the environment `VALIDATOR_KEY_JSON_BASE64` empty or missing delete this line. The node runs on the generated `priv_validator_key.json`.
 
-. By going to the forwarded port **26657**, in the `LEASES` tab, you can noticeably `websocket` of the node, where its up-to-date information was available.
+By going to the forwarded port **26657**, in the `LEASES` tab, you can noticeably `websocket` of the node, where its up-to-date information was available.
 
 <div align="center">
 
