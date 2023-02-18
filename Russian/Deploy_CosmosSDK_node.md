@@ -3,16 +3,23 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/219872517-2adc32b1-5f64-4d48-9a81-1e2ef6b01a53.png" width=90% </p>
 
 # Нода валидатора (стандарта Cosmos SDK), развертка в Akash Network.
+</div>
+<div align="center">
+  
+| [Twitter Decloud Nodes Lab](https://twitter.com/NodesLab) | 
+|:--:|
 
 | [Akash Network](https://akash.network/) | [Forum Akash Network](https://forum.akash.network/) | 
 |:--:|:--:|
 ___
 
-Прежде чем начать - подпишитесь на наши новостные каналы:
+Наши новостные каналы и русскоязычная техническая поддержка:
 
-| [Discord Akash](https://discord.gg/ybKMsYYZkx) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) | [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
+| [Discord Akash](https://discord.akash.network/) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) | [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
 |:--:|:--:|:--:|:--:|:--:|
 
+Перед началом ознакомления ***[скачайте и установите](https://cloudmos.io/cloud-deploy) ПО Cloudmos(Akashlytics)*** на свой рабочий компьютер.
+  
 </div>
  
 <div align="center">
@@ -100,13 +107,13 @@ $BINARY q bank balances $address
 Можете делегировать на себя оставшиеся токены, но оставьте небольшую часть для оплаты газа транзакций:
 
 ```
-$BINARY tx staking delegate $valoper <amount>$DENOM --from $address --chain-id $CHAIN --fees 555$DENOM --home /root/$BINARY/ -y
+$BINARY tx staking delegate $valoper <amount>$DENOM --from $address --chain-id $CHAIN --fees 555$DENOM  -y
 ```
 
 * Собрать награды:
 
 ```
-$BINARY tx distribution withdraw-rewards $valoper --from $address --fees 500$DENOM --commission --chain-id $CHAIN --home /root/$BINARY/ -y
+$BINARY tx distribution withdraw-rewards $valoper --from $address --fees 500$DENOM --commission --chain-id $CHAIN -y
 ```
 Другие команды по управлению нодой [можете найти здесь](https://github.com/Dimokus88/Akash-Nodes-Lab/blob/main/Guide/Command_Cosmos_SDK.md).
 
