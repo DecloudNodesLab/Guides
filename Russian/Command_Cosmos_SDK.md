@@ -1,6 +1,6 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/219872517-2adc32b1-5f64-4d48-9a81-1e2ef6b01a53.png" width=90% </p>
  
-# Команды для командной строки проектов экосистемы Cosmos SDK.
+# Шаблоны команд для CLI проектов на базе Cosmos SDK.
 
 > $BINARY - здесь бинарный файл проекта, у каждого он свой, как и denom и chain-id
 
