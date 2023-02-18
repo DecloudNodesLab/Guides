@@ -37,6 +37,8 @@ Below in `deploy.yml`, the rest of the cores are restored: <br/>
 - "MONIKER=" - Node name.
 - "VALIDATOR_KEY_JSON_BASE64=" - Paste the contents of the `priv_validator_key.json` file encrypted with BASE64 *.
 ```
+> *If you want to deploy an **RPC** node without a validator key - in the environment `VALIDATOR_KEY_JSON_BASE64` empty or missing delete this line. The node runs on the generated `priv_validator_key.json`.
+
 If you activate the project node yourself, then here is a list of available changes in `deploy.yml`: <br/>
 ```
 - "GITHUB_REPOSITORY=" - Link to the project repository that will be cloned into the container and inside which
@@ -62,8 +64,6 @@ binary file. If it is not set, the binary file name will be set to "served".
 
 ```
 If you don't have `priv_validator_key.json`, refer to [this manual](/Russian/Create_validator_key_CosmosSDK.md).
-
-> *If you want to deploy an **RPC** node without a validator key - in the environment `VALIDATOR_KEY_JSON_BASE64` empty or missing delete this line. The node runs on the generated `priv_validator_key.json`.
 
 By going to the forwarded port **26657**, in the `LEASES` tab, you can noticeably `websocket` of the node, where its up-to-date information was available.
 
