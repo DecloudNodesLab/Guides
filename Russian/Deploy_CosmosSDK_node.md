@@ -115,7 +115,7 @@ $BINARY tx distribution withdraw-rewards $valoper --from $address --fees 500$DEN
 ```
 Другие команды по управлению нодой [можете найти здесь](https://github.com/Dimokus88/Akash-Nodes-Lab/blob/main/Guide/Command_Cosmos_SDK.md).
 
-[К началу](https://github.com/Dimokus88/Crowd_Control/blob/main/README.md#Crowd_Control-validator-node-on-akash-network)
+[К началу](/Russian/Deploy_CosmosSDK_node.md#нода-валидатора-стандарта-cosmos-sdk-развертка-в-akash-network)
 
 **Спасибо что воспользовались Akash Network!**
 ___
