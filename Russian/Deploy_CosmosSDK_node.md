@@ -1,8 +1,8 @@
 <div align="center">
-  
-# Нода валидатора (стандарта Cosmos SDK), развертка в Akash Network.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/219870422-f26b1cf2-5473-4af6-a203-99e55762ad0b.png" width=70% </p>
+  
+# Нода валидатора (стандарта Cosmos SDK), развертка в Akash Network.
 
 | [Akash Network](https://akash.network/) | [Forum Akash Network](https://forum.akash.network/) | 
 |:--:|:--:|
