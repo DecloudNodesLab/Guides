@@ -23,6 +23,9 @@ Our news channels technical support:
 
 Before you begin, ***[download and install](https://cloudmos.io/cloud-deploy) Cloudmos(Akashlytics)*** software on your work computer.
   
+| [Инструкция на русском языке](/Russian/Cloudmos(Akashlytics).md) | 
+|:--:|
+  
 </div>
 
 
