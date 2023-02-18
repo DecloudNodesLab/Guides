@@ -6,7 +6,7 @@
 
  1. [Команды аккаунта (кошелька)](/Russian/Command_Cosmos_SDK.md#команды-аккаунта-кошелька)
  2. [Команды валидатора](/Russian/Command_Cosmos_SDK.md#команды-валидатора)
- 3. [Команды голосования](/Russian/Command_Cosmos_SDK.md#команды-голосованияs)
+ 3. [Команды голосования](/Russian/Command_Cosmos_SDK.md#команды-голосования)
  4. [Команды настроек сети](/Russian/Command_Cosmos_SDK.md#команды-настроек-сети)
  
 ___
