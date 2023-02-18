@@ -80,7 +80,7 @@ If you need to **create** a validator `priv_validator_key.json` then - next poin
 
 ## Create a validator:
 
-connect to the worker node via **SSH** protocol using forwarded port **22**, user **root** and password set in **deploy.yml**:
+Connect to the worker node via **SSH** protocol using forwarded port **22**, user **root** and password set in **deploy.yml**:
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/182032966-3fa2ffae-5348-4a2c-a4e8-5d33c57ba320.png" width=60% </p>
   
