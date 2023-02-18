@@ -38,7 +38,7 @@ Send 1 token to another address:
 $BINARY tx bank send <SENDER_ADDRESS> <RECEIVER_ADDRESS> 1000000$DENOM --fees 500$DENOM -y
 ```
 
-[Top](/English/Command_Cosmos_SDK.md#command-templates-for-cosmos-sdk-based-cli-projects) .
+[Up](/English/Command_Cosmos_SDK.md#command-templates-for-cli-projects-based-on-cosmos-sdk) .
 
 ___
 
@@ -78,7 +78,7 @@ Delegate 1,000,000 'u' token to yourself
 $BINARY tx staking delegate <valoper_address> 1000000$DENOM --from <ADDRESS> --fees 500$DENOM -y
 ```
 
-[Top](/English/Command_Cosmos_SDK.md#command-templates-for-cosmos-sdk-based-cli-projects) .
+[Up](/English/Command_Cosmos_SDK.md#command-templates-for-cli-projects-based-on-cosmos-sdk) .
   
 ___
 
@@ -114,7 +114,7 @@ Create an offer
 $BINARY tx gov submit-proposal --title="Randomly reward" --description="Reward 10 testnet participants who completed more than 3 tasks" --type="Text" --deposit="11000000$DENOM" --from <ADDRESS> --fees 500$DENOM
 ```
   
-[Top](/English/Command_Cosmos_SDK.md#command-templates-for-cosmos-sdk-based-cli-projects) .
+[Up](/English/Command_Cosmos_SDK.md#command-templates-for-cli-projects-based-on-cosmos-sdk) .
   
   
 ___
@@ -147,6 +147,6 @@ Check Status
 curl localhost:26657/status
 ```
 
-[Top](/English/Command_Cosmos_SDK.md#command-templates-for-cosmos-sdk-based-cli-projects) .
+[Up](/English/Command_Cosmos_SDK.md#command-templates-for-cli-projects-based-on-cosmos-sdk) .
 
 ___
