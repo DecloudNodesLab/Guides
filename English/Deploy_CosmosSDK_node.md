@@ -63,7 +63,7 @@ If you deployed the project node yourself, then here is a list of available envi
 binary file.
 
 ```
-If you don't have `priv_validator_key.json`, refer to [this manual](/Russian/Create_validator_key_CosmosSDK.md).
+If you don't have `priv_validator_key.json`, refer to [this manual](/English/Create_validator_key_CosmosSDK.md).
 
 By going to the forwarded port **26657**, in the `LEASES` tab, you can view `websocket` of the node, where its up-to-date information was available.
 
@@ -116,7 +116,7 @@ $BINARY tx staking delegate $valoper <amount>$DENOM --from $address --chain-id $
 ```
 $BINARY tx distribution withdraw-rewards $valoper --from $address --fees 500$DENOM --commission --chain-id $CHAIN -y
 ```
-Other commands for managing a node [can be found here](/Russian/Command_Cosmos_SDK.md).
+Other commands for managing a node [can be found here](/English/Command_Cosmos_SDK.md).
 
 [Up](/English/Deploy_CosmosSDK_node.md#validator-node-based-on-cosmos-sdk-deployment-to-akash-network)
 
