@@ -22,7 +22,9 @@ ___
 |:--:|:--:|:--:|:--:|:--:|
 
 Перед началом ознакомления ***[скачайте и установите](https://cloudmos.io/cloud-deploy) ПО Cloudmos(Akashlytics)*** на свой рабочий компьютер.
-  
+
+| [English guide](/English/Cloudmos(Akashlytics).md) | 
+|:--:|  
 </div>
 
 ___
