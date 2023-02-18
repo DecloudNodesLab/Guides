@@ -9,7 +9,7 @@
 | [Twitter Decloud Nodes Lab](https://twitter.com/NodesLab) |
 |:--:|
 
-| [Akash Network] (https://akash.network/) | [Akash Network Forum](https://forum.akash.network/) |
+| [Akash Network](https://akash.network/) | [Akash Network Forum](https://forum.akash.network/) |
 |:--:|:--:|
 ___
 
