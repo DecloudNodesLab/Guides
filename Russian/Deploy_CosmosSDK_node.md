@@ -115,7 +115,7 @@ $BINARY tx distribution withdraw-rewards $valoper --from $address --fees 500$DEN
 ```
 Другие команды по управлению нодой [можете найти здесь](/Russian/Command_Cosmos_SDK.md).
 
-[К началу](/Russian/Deploy_CosmosSDK_node.md#нода-валидатора-стандарта-cosmos-sdk-развертка-в-akash-network)
+[К началу](/Russian/Deploy_CosmosSDK_node.md#%D0%BD%D0%BE%D0%B4%D0%B0-%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D1%80%D0%B0-%D0%BD%D0%B0-%D0%B1%D0%B0%D0%B7%D0%B5-cosmos-sdk-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B0-%D0%B2-akash-network)
 
 **Спасибо что воспользовались Akash Network!**
 ___
