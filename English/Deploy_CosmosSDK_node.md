@@ -74,7 +74,7 @@ By going to the forwarded port **26657**, in the `LEASES` tab, you can view `web
 
 </div>
 
-If you need to **create** a validator like `priv_validator_key.json` then it's easy to the next point.
+If you need to **create** a validator `priv_validator_key.json` then - next point.
 
 [Up](/English/Deploy_CosmosSDK_node.md#validator-node-based-on-cosmos-sdk-deployment-to-akash-network)
 
