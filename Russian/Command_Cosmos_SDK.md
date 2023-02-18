@@ -1,3 +1,5 @@
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/219870422-f26b1cf2-5473-4af6-a203-99e55762ad0b.png" width=70% </p>
+ 
 # Команды для командной строки проектов экосистемы Cosmos SDK.
 
 > $BINARY - здесь бинарный файл проекта, у каждого он свой, как и denom и chain-id
