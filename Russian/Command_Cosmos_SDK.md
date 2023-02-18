@@ -1,4 +1,4 @@
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/219870422-f26b1cf2-5473-4af6-a203-99e55762ad0b.png" width=70% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/219872517-2adc32b1-5f64-4d48-9a81-1e2ef6b01a53.png" width=90% </p>
  
 # Команды для командной строки проектов экосистемы Cosmos SDK.
 
