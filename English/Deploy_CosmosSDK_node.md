@@ -30,16 +30,16 @@ ___
 
 ## Node deployment:
 
-Select a project and deploy the [deploy.yml](https://github.com/DecloudNodesLab/Projects/tree/main/CosmosSDK) file to a node using **Cloudmos (Akashlytics)** ([instructions for use here](/English/Cloudmos(Akashlytics).md)).
-Below in `deploy.yml`, the rest of the cores are restored: <br/>
+Select a project and deploy the [deploy.yml](https://github.com/DecloudNodesLab/Projects/tree/main/CosmosSDK) file using **Cloudmos (Akashlytics)** ([instructions for use here](/English/Cloudmos(Akashlytics).md)).
+If you use the projects that we have prepared, then you just need to enter your values in the variables listed below in `deploy.yml`, leave the rest unchanged: <br/>
 ```
 - "SSH_PASS=" - Password for connecting via SSH (user `root`). If it is not specified, the SSH service will not be installed.
 - "MONIKER=" - Node name.
 - "VALIDATOR_KEY_JSON_BASE64=" - Paste the contents of the `priv_validator_key.json` file encrypted with BASE64 *.
 ```
-> *If you want to deploy an **RPC** node without a validator key - in the environment `VALIDATOR_KEY_JSON_BASE64` empty or missing delete this line. The node runs on the generated `priv_validator_key.json`.
+> *If you want to deploy an **RPC** node without a validator key - missing delete this environment `VALIDATOR_KEY_JSON_BASE64`. The node runs on the generated `priv_validator_key.json`.
 
-If you activate the project node yourself, then here is a list of available changes in `deploy.yml`: <br/>
+If you deployed the project node yourself, then here is a list of available environment in `deploy.yml`: <br/>
 ```
 - "GITHUB_REPOSITORY=" - Link to the project repository that will be cloned into the container and inside which
                            getting a compilation of a binary file.
@@ -52,7 +52,7 @@ If you activate the project node yourself, then here is a list of available chan
 - "SEEDS=" - Enter a list of seeds separated by commas.
 - "DENOM=" - Manual setting of the nominal value of the token.
 - "CHAIN=" - Manual setting of chain-id.
-- "STATE_SYNC=off" - disable state synchronization.
+- "STATE_SYNC=off" - disable state sync.
 - "SNAPSHOT=" - Link to lz4 network snapshot archive. Use in conjunction with STATE_SYNC=off.
 - "PRUNING=off" - disable pruning. If you leave the variable empty - pruning will be enabled, you can add
                     KEEP_RECENT and INTERVAL values, if needed. The default values are KEEP_RECENT=1000 and INTERVAL=10
@@ -60,12 +60,12 @@ If you activate the project node yourself, then here is a list of available chan
 - "DISABLE_RPC=off" - public RPC on host, port 26657 will become available.
 
 * When building BINARY_LINK, you must add a BINARY variable - containing the name
-binary file. If it is not set, the binary file name will be set to "served".
+binary file.
 
 ```
 If you don't have `priv_validator_key.json`, refer to [this manual](/Russian/Create_validator_key_CosmosSDK.md).
 
-By going to the forwarded port **26657**, in the `LEASES` tab, you can noticeably `websocket` of the node, where its up-to-date information was available.
+By going to the forwarded port **26657**, in the `LEASES` tab, you can view `websocket` of the node, where its up-to-date information was available.
 
 <div align="center">
 
@@ -80,17 +80,17 @@ If you need to **create** a validator like `priv_validator_key.json` then it's e
 
 ## Create a validator:
 
-connect to the worker node via **SSH** protocol using forwarded port **22**, user **root** and password set by users in **deploy.yml**:
+connect to the worker node via **SSH** protocol using forwarded port **22**, user **root** and password set in **deploy.yml**:
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/182032966-3fa2ffae-5348-4a2c-a4e8-5d33c57ba320.png" width=60% </p>
   
-Occurrence of the check status if `false` means the node is **synchronized**:
+Of the check status if `false` means the node is **synchronized**:
   
 ```
 curl -s localhost: 26657/status | jq .result.sync_info.catch_up
 ```
 
-If the node is **synchronized** - this will happen:
+If the node is **synchronized** - run:
 
 ```
 source ~/.bashrc && wget -q -O create_validator.sh https://raw.githubusercontent.com/Dimokus88/universe/main/script/create_validator.sh && chmod +x c
