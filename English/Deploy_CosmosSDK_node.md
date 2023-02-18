@@ -35,7 +35,7 @@ Below in `deploy.yml`, the rest of the cores are restored: <br/>
 ```
 - "SSH_PASS=" - Password for connecting via SSH (user `root`). If it is not specified, the SSH service will not be installed.
 - "MONIKER=" - Node name.
-- "VALIDATOR_KEY_JSON_BASE64=" - Paste the contents of the `priv_validator_key.json` file encrypted with **BASE64** *.
+- "VALIDATOR_KEY_JSON_BASE64=" - Paste the contents of the `priv_validator_key.json` file encrypted with BASE64 *.
 ```
 If you activate the project node yourself, then here is a list of available changes in `deploy.yml`: <br/>
 ```
