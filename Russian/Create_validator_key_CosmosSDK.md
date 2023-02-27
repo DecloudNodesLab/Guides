@@ -4,7 +4,7 @@
 
 Так как, ноды экосистемы **Cosmos SDK** стандартизированны - то и файл `priv_validator_key.json` будет подходить к проектам Cosmos.
 
-Если у вас еще нет этого файла - разверните через **Cloudmos** ([инструкция и пример использования здесь](/Russian/Cloudmos(Akashlytics).md)) этот [deploy.yaml](https://github.com/DecloudNodesLab/Projects/blob/main/CosmosSDK/get_validator_key.yaml) .
+Если у вас еще нет этого файла - разверните через **Cloudmos** ([инструкция и пример использования здесь](/Russian/Cloudmos.md)) этот [deploy.yaml](https://github.com/DecloudNodesLab/Projects/blob/main/CosmosSDK/get_validator_key.yaml) .
 
 - После окончания развертывания, в вкладке `LOG-LOG` скопируйте вывод между полями `===CUT HERE===` в текстовый файл на ваше локальное устройство:
 
