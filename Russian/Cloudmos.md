@@ -21,18 +21,18 @@ ___
 | [Discord Akash](https://discord.akash.network/) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) | [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
 |:--:|:--:|:--:|:--:|:--:|
 
-| [English guide](/English/Cloudmos(Akashlytics).md) | 
+| [English guide](/English/Cloudmos.md) | 
 |:--:|  
 </div>
 
 ___
 
 #### В этой статье:
-1. [Создание аккаунта и подготовка к кработе](/Russian/Cloudmos(Akashlytics).md#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0-%D0%B8-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5).
-2. [Создать развертывание](/Russian/Cloudmos(Akashlytics).md#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5).
-3. [Содержимое окна разветывания](/Russian/Cloudmos(Akashlytics).md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%BC%D0%BE%D0%B5-%D0%BE%D0%BA%D0%BD%D0%B0-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
-4. [Закрыть развертывание](/Russian/Cloudmos(Akashlytics).md#%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
-5. [Обзор Cloudmos(Akashlytics)](/Russian/Cloudmos(Akashlytics).md#%D0%BE%D0%B1%D0%B7%D0%BE%D1%80-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B0-cloudmosakashlytics)
+1. [Создание аккаунта и подготовка к кработе](/Russian/Cloudmos.md#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0-%D0%B8-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5).
+2. [Создать развертывание](/Russian/Cloudmos.md#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5).
+3. [Содержимое окна разветывания](/Russian/Cloudmos.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%BC%D0%BE%D0%B5-%D0%BE%D0%BA%D0%BD%D0%B0-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
+4. [Закрыть развертывание](/Russian/Cloudmos.md#%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+5. [Обзор Cloudmos](/Russian/Cloudmos.md#%D0%BE%D0%B1%D0%B7%D0%BE%D1%80-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B0-cloudmosakashlytics)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 Подготовка завершена, теперь сделаем тестовое разветывание.
 
-[Вернуться к содержанию.](/Russian/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
+[Вернуться к содержанию.](/Russian/Cloudmos.md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
   
 ___
 
@@ -105,41 +105,41 @@ ___
 
 Отлично! Похоже, Вы развернули игру в Akash Network! Но Вам же нужно нечто большее, чем игра? Тогда перейдите к разделу описания функционала ***Cloudmos(Akashlytics)*** =)
   
-[Вернуться к содержанию.](/Russian/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
+[Вернуться к содержанию.](/Russian/Cloudmos.md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
   
 ___  
   
 ## Содержимое окна развертывания
 
 Во вкладке ```Dashboard``` отображаются Ваши активные разветывания, зайдите в него.
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180011860-0b25c946-c681-42e5-92eb-53685e42233c.png" width=60% </p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221596081-3ec6f4eb-2987-4aff-b0dd-33fe2ba045f6.png" width=100% </p>
 
 Как узнали раннее, во вкладке ```LEASES``` содержится общая информация о развертывании - провайдер, ресурсы, переадресованный порты и ссылки.
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180012152-b6245abd-6be0-4030-ba1f-be4a9c9c2339.png" width=60% </p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221596340-5d4a87b7-3d53-47d3-a00e-d50fadfbaf5a.png" width=100% </p>
 
 Во вкладке ```LOGS``` есть еще 2 подраздела, это подраздел ```LOGS``` - здесь отображаются логи ***ВНУТРИ*** контейнера (нажав кнопку ```DOWNLOADS LOGS```, можно их скачать в файл):
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180012615-25fd934f-b191-415a-9994-d9449bc71cdf.png" width=50% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221596683-75800c6a-1a59-4753-84ab-45c7ac0463fa.png" width=100% </p>
 
-и подраздел ```EVENTS``` - здесь отображаются логи ***k8s*** и процесс скачивания и старта Вашего образа:
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180013447-fc46589d-70df-486e-92cd-9cad9571824a.png" width=50% </p>
+и подраздел ```EVENTS``` - здесь отображаются логи ***k8s***, процесс скачивания и старта вашего образа:
+
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221596900-39597059-c8f2-4d5a-a1af-b3955c04f7ce.png" width=100% </p>
 
 На вкладке ```SHELL``` можете использовать некоторые ***НЕ интерактивные*** команды внутри контейнера
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180014038-5a6157d5-8329-4ffd-8feb-a3414050434e.png" width=50% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221597223-d678a85b-7091-4cc2-bfa1-2d3e4d24a7e5.png" width=100% </p>
 
 Вкладка ```UPDATE``` содержит текущий ***манифест (deploy.yml)***, здесь Вы можете добавить переменные или изменить версию образа, в этом случае контейнер будет перезапущен. ***(ВАЖНО! Нельзя изменить ресурсы! Для этого надо закрыть равертывание и развернуть заново!).***
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180014538-95597f58-1d4b-4bc7-9ed4-eba9339b3a58.png" width=50% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221597762-983bbe87-d4a9-41fe-828c-a059a7346736.png" width=100% </p>
 
 Вкладка ```RAW DATA``` содержит ```JSON``` информацию из блокчейна ```AKASH```
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180014764-02b11971-e727-4156-8eb6-5e1900f2f1f1.png" width=50% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221598012-a444a5c6-0a98-4d35-9ce8-0cf63579eb28.png" width=100% </p>
 
-[Вернуться к содержанию.](/Russian/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
+[Вернуться к содержанию.](/Russian/Cloudmos.md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
 
 ___
   
@@ -148,43 +148,38 @@ ___
 
 Чтобы закрыть развертывание, необходимо в контекстном меню нажать ```CLOSE``` и подтвердить транзакцию
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180015653-5471583b-51fa-4940-819e-79d1d518b826.png" width=60% </p>
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180015752-d304b327-45fc-4629-93f2-7e79c0505931.png" width=30% </p>
 
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221598510-9450f1ae-5b2c-4037-bb79-cc24d0d03a36.png" width=100% </p>
 
 После закрытия развертывание остаток ***АКТ*** вернется на Ваш основной счет.
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180015965-c3044adc-4352-428c-9d1e-cec2f3e38ae9.png" width=60% </p>
-
-
-[Вернуться к содержанию.](/Russian/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
+[Вернуться к содержанию.](/Russian/Cloudmos.md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
 
 ___
 
   
-### Обзор функционала Cloudmos(Akashlytics).
+### Обзор функционала Cloudmos.
   
 ***Dashboard*** - здесь указаны актуальные параметры Вашего счета(1), текущее состояние аренды в сети(2) и Ваши активные развертывания(3).
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180029956-c9c5ac9f-ee58-4242-ab3b-82c374ee7379.png" width=60% </p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221599302-10794063-abb5-4303-9f59-f501a8561740.png" width=60% </p>
 
 ***Deployments*** - все, когда-либо созданные, разветывания на Вашем адресе, включая не активные.
-  
-  <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180030091-a9ccf0ee-ecbf-4d18-a005-17bb09ab9cd9.png" width=60% </p>
+
+  <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221599517-615a7796-bae8-4cba-8c96-acae9de506a8.png" width=60% </p>
 
 ***Templates*** - готовые решения для развертываний, игры, БД, конструкторы сайтов, майнер и т.д..
-    
-  <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180030306-92134590-17c3-4bf0-9032-79245425755f.png" width=60% </p>
+
+  <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221599709-f8969486-a26d-408c-9aac-671dfcff9b32.png" width=60% </p>
   
 ***Provider*** - список существующих провайдеров в маркетплейсе Akash Network с параметрами их оборудования.
-    
- <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180030505-c704159c-6820-4d86-8ea6-66c5eedb71b5.png" width=60% </p> 
+
+ <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221599849-e1cf4f85-d25a-418e-a4b5-077634d2ebf0.png" width=60% </p> 
 
 ***Settings*** - настройка RPC ноды приложения (1). Так же доступно быстрое переключение в поле вверху окна (2).
-   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180031581-545f3439-702d-45e2-8d53-3d4f97d845ce.png" width=60% </p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221600341-ecb778bd-857e-420e-b13d-b7ff4f22e8ec.png" width=60% </p>
   
-[Вернуться к содержанию.](/Russian/Cloudmos(Akashlytics).md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
+[Вернуться к содержанию.](/Russian/Cloudmos.md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
 
 ___
