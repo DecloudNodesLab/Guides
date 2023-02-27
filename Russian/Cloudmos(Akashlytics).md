@@ -39,29 +39,23 @@ ___
 ## Подключение аккаунта и подготовка к работе.
 
 Авторизуйтесь на [web UI Cloudmos](https://deploy.cloudmos.io/) с помощью приложения Keplr:
-<p align="center"><img src="[https://user-images.githubusercontent.com/23629420/179984518-4d68dba5-2914-40e5-a8d1-8c193c7db6f3.png](https://user-images.githubusercontent.com/23629420/221588325-7ef4f756-4706-4106-8a3a-839034782469.gif)" width=30% </p>
 
-Готово, аккаунт успешно создан!
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221588325-7ef4f756-4706-4106-8a3a-839034782469.gif" width=70% </p>
+
+
   
-   Токен АКТ можно пробрести на биржах ```Gate```, ```AsendeX```, ```Osmosis``` . Следует учитывать, что при каждом развертывании на счете блокируются ***5 AKT*** + требуется небольшое количество AKT для оплаты газа. Таким образом, для теста достаточно пополнить счет на ***6 АКТ***.
+ > Пополните счет AKT. Следует учитывать, что при каждом развертывании на счете блокируются ***5 AKT*** + требуется небольшое количество AKT для оплаты газа. Таким образом, для теста достаточно пополнить счет на ***6 АКТ***. Токен АКТ можно пробрести на биржах ```Gate```, ```AsendeX```, ```Osmosis``` . 
   
- В примере я пополню тестовый счет ```akash1wnejkh7vfjxcavmt43dratujdw5vkzynt94zrg``` на ***6 АКТ***.
 
-Счет пополнен, теперь необходимо запросить и установить локально сертификат из блокчейна, для этого справа вверху нажмите ***CREATE CERTIFICATE***
+
+После того как счет АКТ пополнен - необходимо запросить и установить сертификат из блокчейна, для этого:
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179985902-ac2a82cd-522c-4a24-b1d6-6f5c16f24fbe.png" width=60% </p>
+1. Справа вверху нажмите ***CREATE CERTIFICATE***  
+2. Выберите комисиию за транзакцию и поддтвердите транзакцию.
 
-Введите пароль указанный при ***создании аккаунта***:
+Сертификат создан, Вы можете его увидеть в правом верхнем углу окна.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179986384-90fc70fe-3c6e-4a71-8592-ccd2d04dcb7c.png" width=30% </p>
-
-Выберите комисиию за транзакцию и поддтвердите транзакцию:
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179986643-a41816cc-5338-4036-8fa6-b4a2ceabdf54.png" width=30% </p>
-
-Сертификат создан, Вы можете его увидеть в правом верхнем углу окна:
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179986849-36066744-450f-440a-a392-542afcc3b883.png" width=50% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221591238-e1858e2f-eb8f-4ff1-a01b-269dbb91e1af.gif" width=70% </p>
 
 Подготовка завершена, теперь сделаем тестовое разветывание.
 
@@ -71,21 +65,21 @@ ___
 
 ## Тестовое развертывание
 
-В ***Cloudmos(Akashlytics)*** есть готовые файлы ***манифеста (deploy.yml)***, они находятся во вкладке ```Templates```, ознакомьтесь с предложением готовых решений: 
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179993135-a0b5f5d1-8236-41f1-886b-8bfe664c8358.png" width=60% </p>
+В ***Cloudmos*** есть готовые файлы ***манифеста (deploy.yml)***, они находятся во вкладке ```Templates```, ознакомьтесь с предложением готовых решений: 
 
-Развернем всем известную игру ***Super Mario***, для этого выберем соответствующий раздел в ```Templeates``` и нажмем на ```Super Mario```:
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179993710-bdf5464e-a8cf-4426-857a-92ae80d7f3c7.png" width=60% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221591869-b37798b8-76d6-476f-8c3d-ec8be35683db.png" width=60% </p>
+
+Развернем всем известную игру ***Super Mario***, для этого выберем соответствующий раздел ***Games*** в ```Templeates``` и нажмем на ```Super Mario```:
+
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221592345-5eb3f69a-c391-40e1-8d3b-203d7a87069d.png" width=60% </p>
 
 Нажимаем ***Deploy***: 
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179993892-8a2b96bb-b529-46f7-92bb-2f5e34ac3c87.png" width=60% </p>
 
-***Cloudmos(Akashlytics)*** быстро проверяет наличие сертификата и ***5 АКТ*** на балансе, и открывает заполненное окно ***манифеста (deploy.yml)***, остановимся на содержимом манифеста:
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179994491-9ddb00f5-14ea-4430-ae43-1d23e406c854.png" width=60% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221592527-cc96d385-e682-4ad8-bd47-e2308f9116df.png" width=60% </p>
+
+***Cloudmos*** быстро проверяет наличие сертификата и ***5 АКТ*** на балансе, и открывает заполненное окно ***манифеста (deploy.yml)***, остановимся на содержимом манифеста:
+
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221593433-2e94845d-3db2-4adf-acf8-672570b6340c.png" width=60% </p>
 
 Здесь обратите внимание на:
 
@@ -93,19 +87,17 @@ ___
 
 Раздел ```profiles``` (строки 13-22) здесь в подразделе ```resources``` мы указываем арендуемые характеристики оборудования под наш контейнер с игрой ***Super Mario***. В нашем случае это ```1 cpu, 512 мб ОЗУ и 512мб жесткого диска```. Задайте ввеху имя развертывания и нажимите ***CREATE DEPLOYMENT***.
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179996364-3f4591e3-731c-41b3-91ae-d580fc6bad8e.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221593892-f1385fd5-5d68-45e3-b74a-c0bec7a9e6bc.png" width=30% </p>
 
 Депонируем ***5 АКТ*** из нашего счета, нажимаем ```DEPOSIT```:
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179996501-52b33027-2be4-4791-b238-93ca79de8e47.png" width=30% </p>
 
 Устанавливаем размер комиссии за транpакцию и подтверждаем ее. На данном этапе мы отправили в сеть запрос на мощности для нашего конетйнера с игрой. Нам остается дождаться ответа от провайдеров с их предложениями и ценами. ***Обратите внимание, у Вас со счет были депонированы 5 АКТ***.
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179997193-2c4793bf-392f-4d7d-81a9-8e1326083cf2.png" width=30% </p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221594641-9f02b27b-04b6-4459-9108-ebb852b40434.png" width=90% </p>
 
 Выбираем провайдера и нажимаем ```ACCEPT BID```, еще раз устанавливаем комиссию для транзакиции и подтверждаем ее. Дожидаемся развертки контейнера. После того, как контейнер развернут, перейдите на вкладку ```LEASES```.
- 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179997878-7d6eb433-24ef-4b67-b829-d47c858553bd.png" width=30% </p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221595596-3e2ecd06-2b3a-462b-97db-c8e3466f3c41.png" width=80% </p>
 
 Здесь доступна информация о Вашем провайдере, стоимости аренды, а также индивидуальная ссылка на Ваше развертывание. Нажмите на нее.
   
