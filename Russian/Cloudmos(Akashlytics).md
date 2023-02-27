@@ -2,7 +2,7 @@
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/219872517-2adc32b1-5f64-4d48-9a81-1e2ef6b01a53.png" width=90% </p>
   
-# Обзор и руководство по использованию кастомного пользовательского интерфейса Cloudmos(Akashlytics).
+# Обзор и руководство по использованию кастомного пользовательского web интерфейса Cloudmos.
 
 
   </div>
@@ -21,8 +21,6 @@ ___
 | [Discord Akash](https://discord.akash.network/) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) | [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
 |:--:|:--:|:--:|:--:|:--:|
 
-Перед началом ознакомления ***[скачайте и установите](https://cloudmos.io/cloud-deploy) ПО Cloudmos(Akashlytics)*** на свой рабочий компьютер.
-
 | [English guide](/English/Cloudmos(Akashlytics).md) | 
 |:--:|  
 </div>
@@ -38,19 +36,10 @@ ___
 
 ___
 
-## Создание аккаунта и подготовка к работе.
+## Подключение аккаунта и подготовка к работе.
 
-После установки, при первом запуске, будет предложено создать адрес в сети ```Akash``` или экспортировать уже имеющийся по seed-фразе:
-
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179983489-a8b76248-edea-4356-8e87-3ec2761ae8b8.png" width=30% </p>
-
-При выборе создания нового аккаунта (кошелька), Вам будет показана seed-фраза к нему, сохраните ее в надежном месте. А также, укажите название будущего аккаунта (кошелька) и пароль к нему:
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179984081-47586ff3-76bb-4951-9c44-50e68e95fac9.png" width=30% </p>
-
-Выполните проверку сохранности seed-фразы, расположив слова в правильном порядке:
-  
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179984518-4d68dba5-2914-40e5-a8d1-8c193c7db6f3.png" width=30% </p>
+Авторизуйтесь на [web UI Cloudmos](https://deploy.cloudmos.io/) с помощью приложения Keplr:
+<p align="center"><img src="[https://user-images.githubusercontent.com/23629420/179984518-4d68dba5-2914-40e5-a8d1-8c193c7db6f3.png](https://user-images.githubusercontent.com/23629420/221588325-7ef4f756-4706-4106-8a3a-839034782469.gif)" width=30% </p>
 
 Готово, аккаунт успешно создан!
   
