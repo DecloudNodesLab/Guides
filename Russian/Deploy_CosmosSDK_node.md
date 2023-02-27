@@ -30,7 +30,7 @@ ___
 
 ## Развертка ноды:
 
-Выберите проект и разверните файл [deploy.yml](https://github.com/DecloudNodesLab/Projects/tree/main/CosmosSDK) ноды с помощью **Cloudmos (Akashlytics)**  ([инструкция по использованию здесь](/Russian/Cloudmos(Akashlytics).md)).
+Выберите проект и разверните файл [deploy.yml](https://github.com/DecloudNodesLab/Projects/tree/main/CosmosSDK) ноды с помощью **Cloudmos**  ([инструкция по использованию здесь](/Russian/Cloudmos.md)).
 Если вы используете проекты которые мы подготовили, то Вам достаточно внести свои значения в переменные указанные ниже в `deploy.yml`, остальные оставьте неизменными: <br/>
 ```
 - "SSH_PASS="  - Пароль для подключения по SSH (пользователь `root`). Если его не указать - служба SSH не будет установлена.
