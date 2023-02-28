@@ -32,7 +32,7 @@ ___
 2. [Create Deployment](/English/Cloudmos.md#test-deployment).
 3. [Review window content](/English/Cloudmos.md#contents-of-the-deployment-window).
 4. [Close Deployment](/English/Cloudmos.md#close-deployment).
-5. [Cloudmos overview](/English/Cloudmos.md#cloudmos-functionality-overview).
+5. [Cloudmos overview](/English/Cloudmos.md#overview-of-cloudmos-functionality).
 
 ___
 
