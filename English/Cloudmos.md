@@ -43,8 +43,11 @@ Login to [web UI Cloudmos](https://deploy.cloudmos.io/) using the Keplr app:
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221588325-7ef4f756-4706-4106-8a3a-839034782469.gif" width=70% </p>
 
   
-  > Top up your AKT account. Please note that ***5 AKT*** are blocked on the account with each deployment + a small amount of AKT is required to pay for gas. Thus, for the test it is enough to replenish the account with ***6 AKT***. The AKT token can be purchased on the ```Gate```, ```AsendeX```, ```Osmosis``` exchanges.
+#### Crate certificate
   
+  > Top up your AKT account. Please note that ***5 AKT*** are blocked on the account with each deployment + a small amount of AKT is required to pay for gas. Thus, for the test it is enough to replenish the account with ***6 AKT***. The AKT token can be purchased on the ```Gate```, ```AsendeX```, ```Osmosis``` exchanges.
+
+
 After the AKT account is replenished, it is necessary to request and install a certificate from the blockchain, for this:
   
 1. At the top right, click ***CREATE CERTIFICATE***.
