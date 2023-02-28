@@ -30,7 +30,7 @@ ___
 
 ## Node deployment:
 
-Select a project and deploy the [deploy.yml](https://github.com/DecloudNodesLab/Projects/tree/main/CosmosSDK) file using **Cloudmos (Akashlytics)** ([instructions for use here](/English/Cloudmos(Akashlytics).md)).
+Select a project and deploy the [deploy.yml](https://github.com/DecloudNodesLab/Projects/tree/main/CosmosSDK) file using **Cloudmos (Akashlytics)** ([instructions for use here](/English/Cloudmos.md)).
 If you use the projects that we have prepared, then you just need to enter your values in the variables listed below in `deploy.yml`, leave the rest unchanged: <br/>
 ```
 - "SSH_PASS=" - Password for connecting via SSH (user `root`). If it is not specified, the SSH service will not be installed.
