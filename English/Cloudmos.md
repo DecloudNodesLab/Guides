@@ -29,9 +29,9 @@ ___
 
 #### In this article:
 1. [Connecting an account and preparing for work](/English/Cloudmos.md#connecting-account-and-preparing-to-work).
-2. [Create Deployment](/English/Cloudmos.md#Test-deployment).
-3. [Review window content](/English/Cloudmos.md#Contents-of-the-deployment-window).
-4. [Close Deployment](/English/Cloudmos.md#Close-deployment).
+2. [Create Deployment](/English/Cloudmos.md#test-deployment).
+3. [Review window content](/English/Cloudmos.md#contents-of-the-deployment-window).
+4. [Close Deployment](/English/Cloudmos.md#close-deployment).
 5. [Cloudmos overview](/English/Cloudmos.md#cloudmos-functionality-overview).
 
 ___
