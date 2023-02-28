@@ -28,7 +28,7 @@ Our news channels and technical support:
 ___
 
 #### In this article:
-1. [Connecting an account and preparing for work](/English/Cloudmos.md#connecting-account-and-preparing-to-work).
+1. [Connecting an account and preparing for work](/English/Cloudmos.md#account-connection-and-preparation-for-work).
 2. [Create Deployment](/English/Cloudmos.md#test-deployment).
 3. [Review window content](/English/Cloudmos.md#contents-of-the-deployment-window).
 4. [Close Deployment](/English/Cloudmos.md#close-deployment).
