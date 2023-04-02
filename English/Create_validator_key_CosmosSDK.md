@@ -16,6 +16,6 @@ You may have copied `app:` which is redundant in the file. Change the contents o
 
 Save the file as `priv_validator_key.json` , now you can use it for any node in the **Cosmos SDK** ecosystem.
 
-Close the deployment, `5 ACT` will be returned to the account:
+Close the deployment, `5 AKT` will be returned to the account:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/187511436-c7628eb1-68d2-4018-891b-cf8ca11ebbed.png" width=60% </p>
