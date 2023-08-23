@@ -9,13 +9,13 @@
 |[Delegate Kyve](https://restake.app/kyve/kyvevaloper1ax4c40gn3s74xxm75g6cmts3fw7rq64gzgc27r) | [Delegate Vidulum](https://restake.app/vidulum/vdlvaloper1nuphu4p06dlgx2se0w58z5c7yv00r5gle0h5gs) | [Delegate Realio](https://restake.app/realio/realiovaloper1chee8l82uxqfduxr8x0pfrp9psl08cy4a20m0u) | 
 |:--:|:--:|:--:|
 ## English guides:
-   - [Browse and use the Cloudmos UI.](https://github.com/DecloudNodesLab/Guides/blob/main/English/Cloudmos(Akashlytics).md)
+   - [Browse and use the Cloudmos UI.](https://github.com/DecloudNodesLab/Guides/blob/main/English/Cloudmos.md)
    - [Deployment of project validator nodes based on Cosmos SDK.](https://github.com/DecloudNodesLab/Guides/blob/main/English/Deploy_CosmosSDK_node.md)
    - [Commands commonly used in CLI, for projects based on Cosmos SDK.](https://github.com/DecloudNodesLab/Guides/blob/main/English/Command_Cosmos_SDK.md)
    - [Generating a validator key for projects based on Cosmos SDK.](https://github.com/DecloudNodesLab/Guides/blob/main/English/Create_validator_key_CosmosSDK.md)
   
 ## Инструкции на русском:
-  - [Обзор и использование пользовательского интерфейса Cloudmos.](https://github.com/DecloudNodesLab/Guides/blob/main/Russian/Cloudmos(Akashlytics).md)
+  - [Обзор и использование пользовательского интерфейса Cloudmos.](https://github.com/DecloudNodesLab/Guides/blob/main/Russian/Cloudmos.md)
   - [Разверка нод валидатора проектов на базе Cosmos SDK.](https://github.com/DecloudNodesLab/Guides/blob/main/Russian/Deploy_CosmosSDK_node.md)
   - [Часто используемые в CLI команды, для проектов на базе Cosmos SDK.](https://github.com/DecloudNodesLab/Guides/blob/main/Russian/Command_Cosmos_SDK.md)
   - [Генерация ключа валидатора для проектов на базе Cosmos SDK.](https://github.com/DecloudNodesLab/Guides/blob/main/Russian/Create_validator_key_CosmosSDK.md)
